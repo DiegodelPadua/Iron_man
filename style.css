@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+header{
+    margin-left: 50px;
+    margin-top: 32px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aqua;
+    /* padding: 10px 50px; */
+    /* position: fixed; */
+     text-align: center;
+}
+.Options{
+    font-size: 18;
+    width: 386px;
+    height: 27px;
+    gap: 35px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
