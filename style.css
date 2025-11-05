@@ -3,15 +3,13 @@ body{
     flex-direction: column;
     min-height: 100vh;
     background-color: white;
+    padding: 50px;
 }
 header{
-    margin-left: 50px;
-    margin-top: 32px;
-    margin-right: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:aqua;
+    /* background-color:aqua; */
     /* padding: 10px 50px; */
     /* position: fixed; */
      text-align: center;
@@ -21,9 +19,68 @@ header{
     width: 386px;
     height: 27px;
     gap: 35px;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     justify-content: space-between;
     align-items:center;
+}
+.global{
+    display: flex;
+    /* background-color: yellow; */
+    
+    
+}
+.social{
+    flex-direction: column;
+    /* margin-left: 50px; */
+    display: flex;
+    /* background-color: blue; */
+    margin-top: 40%;
+}
+.Rede{
+    width: 44px;
+
+}
+.vermelha{
+    /* background-color: red; */
+    flex-grow: 1;
+}
+.marvel_character{
+    margin: 227px 194px 90px 150px;
+    /* background-color: aquamarine; */
+    width: 441px;
+    height: 324px;
+}
+.marvel_fan{
+    margin: 0px 0px 90px 150px;
+    width: 362px;
+    height: 57px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.iron_man{
+    display: flex;
+    flex-direction: column-reverse;
+    transform: rotate(270deg);
+    position: absolute;
+    font-size: 100px;
+    right: -300px;
+    top: 40%;
+}
+.image_iron_man{
+    padding-right: 30%;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    margin-top: 4%;
 }
 
